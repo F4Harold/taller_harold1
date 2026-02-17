@@ -5,7 +5,7 @@ manejo de codigo en html y css para la creacion de un portafolio personal
 ---
 
 ## tabla de contenio 
--[caracteristicas](#caracteristicas )
+- [caracteristicas](#caracteristicas )
 - [tenologias](#tecnologia)
 - [intalacion](#intalacion)
 
