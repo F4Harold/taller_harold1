@@ -9,12 +9,29 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<!-- Botón hamburguesa -->
+<div class="menu-btn" onclick="openMenu()">
+    ☰
+</div>
+
+<!-- Menú lateral -->
+<div id="side-menu" class="side-menu">
+    <span class="close-btn" onclick="closeMenu()">✕</span>
+    <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</div>
 
     <!-- HERO -->
-<header class="header">
-    <div id="particles-js"></div>
+<header class="hero">
+    <div class="overlay"></div>
 
-    <div class="header-content">
+    <div class="hero-content">
+        <h4>PORTAFOLIO</h4>
         <h1>Harold Arciniegas</h1>
         <p>Desarrollador Web</p>
     </div>
@@ -292,7 +309,25 @@
         </div>
 
     </div>
+    <div class="contact-container">
+
+    <!-- Formulario -->
+    <div class="contact-form">
+        <!-- TU FORMULARIO AQUÍ -->
+    </div>
+
+    <!-- Cuadro para imagen + video -->
+    <div class="contact-video">
+        <a href="https://youtu.be/31j4DIpgY9U?si=GOTtFU-zmLVtSR6w" target="_blank">
+            <img src="asset/ghostemane.jpg" alt="Ver video">
+            <div class="play-icon">▶</div>
+        </a>
+    </div>
+
+</div>
+
 </section>
+
 
 
 <footer class="footer">
@@ -301,7 +336,7 @@
 
     <!-- Librería particles -->
 <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
-<script src="asset/particles-config.js"></script>
+<script src="asset/menu.js></script>
 
 
 </body>
